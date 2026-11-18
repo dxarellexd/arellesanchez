@@ -11,12 +11,14 @@ export const profile = {
     "Cisco CCST IT Support certified (2025) and ready for a help desk, IT support or junior systems administration role.",
 };
 
+export const typed = ["IT Support Technician", "Junior Systems Administrator", "Network Troubleshooter", "Cisco CCST Certified"];
+
 export const ticket = {
   id: "Resolved at Globaltech",
   rows: [
-    { label: "Average resolution time", value: "30% lower" },
-    { label: "Repeat incidents", value: "45% fewer" },
-    { label: "Users and devices supported", value: "30–45" },
+    { label: "Average resolution time", num: 30, suffix: "%", note: "lower" },
+    { label: "Repeat incidents", num: 45, suffix: "%", note: "fewer" },
+    { label: "Users and devices supported", text: "30–45", note: "across multiple sites" },
   ],
 };
 
