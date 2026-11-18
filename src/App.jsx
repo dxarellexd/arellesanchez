@@ -91,8 +91,6 @@ export default function App() {
             </div>
           </div>
 
-          <div className="hero-side">
-            <img className="portrait" src="./arelle.webp" alt="Portrait of Arelle Sanchez" width="800" height="1458" />
           <aside className="ticket" aria-label="Results at Globaltech">
             <div className="ticket-head">
               <span className="mono">{ticket.id}</span>
@@ -110,7 +108,6 @@ export default function App() {
               ))}
             </dl>
           </aside>
-          </div>
         </section>
 
         <div className="marquee" aria-hidden="true">
